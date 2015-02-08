@@ -1,0 +1,13 @@
+﻿How to Add new Services
+-----------------------
+
+
+1. Create your IService interface file.  For GETs, name the parameter.  For POSTs, just use a Stream parameter.
+
+2. Add the route to Global.asax
+
+3. Implement the interface in a class.  Do stuff.
+
+4. Add a test for it.
+
+5. Add the operation into AuthenticationConfig.cs

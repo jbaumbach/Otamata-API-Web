@@ -1,0 +1,84 @@
+﻿body {
+    font-family: arial,sans-serif; /*font-size: 95.5%;*/
+    text-align: left;
+    background-color: #00A876;
+    margin: 12px;
+}
+#content {
+    background-color: White;
+    padding: 16px;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+    margin:auto;
+}
+ul {
+    list-style: none outside none;
+}
+li {
+    margin: 5px;
+}
+a, a:link, a:visited /*, a:active */ {
+    color: #007F16;
+}
+a:hover {
+    text-decoration: underline;
+}
+a {
+    text-decoration: none;
+}
+img {
+    border: 0 none;
+}
+#player {
+    font-size: 1.0em;
+}
+#player ul {
+    margin: 0;
+    padding: 0;
+}
+#player h1, #player h2 {
+    display: block;
+    text-align: center;
+    margin: 0;
+}
+#player h1 {
+    font-size: 1.35em;
+}
+#player h2 {
+    font-size: 1.05em;
+    margin: 40px 0 15px;
+}
+#player audio {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 35px;
+    margin-bottom: 15px;
+}
+#player .instructions {
+    font-style: italic;
+    color: #ff3100;
+    margin: 0;
+    text-align: center;
+}
+#playLink 
+{
+    text-align:center;
+}
+#player #soundIconContainer {
+    float: left;
+    margin: 5px 15px 5px 0;
+}
+#player #aboutOtamata {
+    text-align: center;
+    margin-bottom: 5px;
+}
+/* Big browser window overrides */
+@media screen and (min-width: 800px)
+{
+    #content 
+    {
+        width:500px;
+    }
+    
+}

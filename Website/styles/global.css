@@ -1,0 +1,82 @@
+﻿body {
+    font-family: arial,sans-serif;
+    font-size: 95.5%;
+    text-align: left;
+    background-color: #00A876;
+    margin:12px;
+}
+a ,a:link, a:visited  /*, a:active */ {
+    color: #007F16;
+}
+a:hover {
+    text-decoration: underline;
+}
+a {
+    text-decoration:none;
+}
+img {
+        border: 0 none;
+}
+#content {
+    background-color:White;
+    padding:16px;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+
+}
+/* topnav */
+img.mainicon {
+    float:left;
+    margin-right: 10px;
+}
+img.ituneslink {
+    float:right;
+}
+h1 {
+    margin:10px 0 0;
+    display:inline-block;
+}
+.page, .clear {
+    clear:both;
+}
+#mainform ol, ul {
+    list-style: none outside none;
+}
+li {
+    margin:5px;
+}
+.fineprint {
+    font-size:0.8em;
+    font-style:italic;
+    margin-top:10px;
+}
+.status {
+    display:inline-block;
+    width:600px;
+    border:1px solid black;
+    padding:10px;
+}
+.statusNone {
+    display:none;
+}
+.statusMessage {
+    background:#74E868;
+}
+.statusError {
+    background:#FF3100;
+    color:White;
+}
+#mainmenu {
+    background:1px solid blue;
+}
+/* main menu */
+#maimmenu li {
+    display:inline-block;
+    margin: 5px 10px;
+}
+/* footer */
+#footer {
+    color: #ff3100;
+    font-size: 0.8em;
+    text-align: center;
+}

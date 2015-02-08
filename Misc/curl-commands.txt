@@ -1,0 +1,41 @@
+
+Search sounds:
+
+curl http://localhost:81/services/soundssummary/xml --digest --user iosDeviceUser:0t@maTA-pe1A
+
+
+Rate a sound:
+
+bad:
+curl http://localhost:81/services/ratesound/xml --digest --user iosDeviceUser:0t@maTA-pe1A --data-urlencode hello=there
+curl http://localhost:81/services/ratesound/xml --digest --user iosDeviceUser:0t@maTA-pe1A --data-urlencode soundId=hello
+curl http://localhost:81/services/ratesound/xml --digest --user iosDeviceUser:0t@maTA-pe1A --data-urlencode soundId=12
+curl http://localhost:81/services/ratesound/xml --digest --user iosDeviceUser:0t@maTA-pe1A --data-ascii "soundId=12&rating=10"
+
+good:
+curl http://localhost:81/services/ratesound/xml --digest --user iosDeviceUser:0t@maTA-pe1A --data-ascii "soundId=12&rating=2"
+curl http://localhost:81/services/ratesound/xml --digest --user iosDeviceUser:0t@maTA-pe1A --data-ascii "soundId=12&rating=2&text=Curld rating"
+
+
+Mark a sound as inappropriate: (posts form)
+
+bad:
+curl http://localhost:81/services/markinappropriate/xml --digest --user iosDeviceUser:0t@maTA-pe1A --data-urlencode hello=there
+
+good:
+curl http://localhost:81/services/markinappropriate/xml --digest --user iosDeviceUser:0t@maTA-pe1A --data-ascii "soundId=12&deviceId=curl_test_user&appVersion=0.89"
+
+
+Record Purchase
+bad:
+curl http://localhost:81/services/recordpurchase/xml --digest --user iosDeviceUser:0t@maTA-pe1A --data-ascii ""
+curl http://localhost:81/services/recordpurchase/xml --digest --user iosDeviceUser:0t@maTA-pe1A --data-ascii "purchaseId=curl_test_product"
+curl http://localhost:81/services/recordpurchase/xml --digest --user iosDeviceUser:0t@maTA-pe1A --data-ascii "deviceId=curl_test_user"
+
+good:
+curl http://localhost:81/services/recordpurchase/xml --digest --user iosDeviceUser:0t@maTA-pe1A --data-ascii "purchaseId=curl_test_product&deviceId=curl_test_user&appVersion=0.89"
+
+
+
+
+

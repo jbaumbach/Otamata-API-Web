@@ -1,0 +1,77 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OttaMatta.Application", "OttaMatta.Application\OttaMatta.Application.csproj", "{9B3255D1-4009-4280-A4AD-1C527A17FF8F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OttaMatta.Data", "OttaMatta.Data\OttaMatta.Data.csproj", "{A22F557C-43A4-445B-8534-2BD111DBA382}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OttaMatta.Common", "OttaMatta.Common\OttaMatta.Common.csproj", "{9291155B-A82B-4760-A774-F1C7D9939428}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OtamataTests", "OtamataTests\OtamataTests.csproj", "{C1722464-1201-4F4B-A130-6D3683A0069F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{57156F82-7254-477A-B208-59844143DD0A}"
+	ProjectSection(SolutionItems) = preProject
+		Local.testsettings = Local.testsettings
+		OttaMatta.vsmdi = OttaMatta.vsmdi
+		TraceAndTestImpact.testsettings = TraceAndTestImpact.testsettings
+	EndProjectSection
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "localhost", "http://localhost:82", "{4A330EEF-03E7-4286-B2B3-3A3FC31FABCC}"
+	ProjectSection(WebsiteProperties) = preProject
+		UseIISExpress = "false"
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		ProjectReferences = "{9B3255D1-4009-4280-A4AD-1C527A17FF8F}|OttaMatta.Application.dll;{9291155B-A82B-4760-A774-F1C7D9939428}|OttaMatta.Common.dll;{A22F557C-43A4-445B-8534-2BD111DBA382}|OttaMatta.Data.dll;"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_82"
+		Debug.AspNetCompiler.PhysicalPath = "website-v2\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_82\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_82"
+		Release.AspNetCompiler.PhysicalPath = "website-v2\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_82\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		SlnRelativePath = "website-v2\"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = OttaMatta.vsmdi
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9B3255D1-4009-4280-A4AD-1C527A17FF8F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B3255D1-4009-4280-A4AD-1C527A17FF8F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B3255D1-4009-4280-A4AD-1C527A17FF8F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B3255D1-4009-4280-A4AD-1C527A17FF8F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A22F557C-43A4-445B-8534-2BD111DBA382}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A22F557C-43A4-445B-8534-2BD111DBA382}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A22F557C-43A4-445B-8534-2BD111DBA382}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A22F557C-43A4-445B-8534-2BD111DBA382}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9291155B-A82B-4760-A774-F1C7D9939428}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9291155B-A82B-4760-A774-F1C7D9939428}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9291155B-A82B-4760-A774-F1C7D9939428}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9291155B-A82B-4760-A774-F1C7D9939428}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C1722464-1201-4F4B-A130-6D3683A0069F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C1722464-1201-4F4B-A130-6D3683A0069F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C1722464-1201-4F4B-A130-6D3683A0069F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C1722464-1201-4F4B-A130-6D3683A0069F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4A330EEF-03E7-4286-B2B3-3A3FC31FABCC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A330EEF-03E7-4286-B2B3-3A3FC31FABCC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A330EEF-03E7-4286-B2B3-3A3FC31FABCC}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A330EEF-03E7-4286-B2B3-3A3FC31FABCC}.Release|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		VisualSVNWorkingCopyRoot = .
+	EndGlobalSection
+EndGlobal

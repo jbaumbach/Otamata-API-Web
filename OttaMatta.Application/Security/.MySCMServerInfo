@@ -1,0 +1,9 @@
+SCMBranch=12557 - JB - Regal Refunds
+SCMRepository=Fandango 4.1/Fandango/Application/Admin/Services/Fandango.Application.Admin.Services/Security
+SCMMainlineUUID={87a99260-2219-4aac-b4c8-72994dbc7476}
+SCMBranchRepositoryID=1290074
+RequestValidation.cs;2241131776;4;1325194455;
+FandangoAuthentication.cs;1959080186;2;1325196227;
+DigestAuthentication.cs;625921966;2;1325192367;
+BasicAuthentication.cs;6484641;2;1325192468;
+AuthenticationConfig.cs;369499974;2;1325195072;
