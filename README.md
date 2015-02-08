@@ -12,7 +12,7 @@ There's not much to see of the API, but here are some views of the website.
 
 
 <tr>
-<td width="600"><img src="Screenshots/ss-web-main.png" alt="Screenshot" /></td>
+<td width="500"><img src="Screenshots/ss-web-main.png" alt="Screenshot" /></td>
 <td>Website homepage. Nice and responsive with some cool screenshots.</td>
 </tr>
 
