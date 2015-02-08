@@ -29,7 +29,7 @@ enough.</td>
 </tr>
 
 <tr>
-<td><img src="Screenshots/ss-web-main.png" alt="Screenshot" /></td>
+<td><img src="Screenshots/ss-web-updates.png" alt="Screenshot" /></td>
 <td>A page showing the updates for each release.</td>
 </tr>
 
